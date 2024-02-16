@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(71, 73, 92);
+}
+
+.card{
+    background: rgb(29, 22, 30);
+    padding: 10px;
+}
+
+.card-body{
+    background: white;
+   
+}
+
+@media (max-width:1000px) {
+    body{
+     background-color: cadetblue;
+    }
+ 
+ }
+ 
+ @media (min-width:700px) {
+     body{
+      background-color: rgb(226, 137, 77);
+     }
+  
+  }
+ 
+  @media (min-width:1200px) {
+     body{
+      background-color: rgb(78, 57, 116);
+     }
+ }
+ 
